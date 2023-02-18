@@ -1,0 +1,146 @@
+body{
+    margin-left: 41px;
+    margin-top: 33px;
+    margin-right: 42px;
+    margin-bottom: 38px;
+    font-family: 'Inter';
+    font-style: normal;
+    color: #FFFFFF;
+    background-color: black;
+}
+.project{
+    background-color: black;
+    height: 1271px;
+    width: 1728px;
+    padding-top:33px;
+    margin-bottom:50px;
+}
+
+.boxs{
+    display: flex;
+    flex-flow:column wrap;
+    margin-top:29px;
+    margin-left:41px;
+}
+.empl{
+    padding: 38px 51px 39px 51px;
+    border:  2px solid #808080;
+    border-radius: 20px;
+    font-weight: 200;
+    font-size: 48px;
+    margin-bottom: 29px;
+}
+.empf{
+    border: 2px solid #808080;
+    border-radius: 20px;
+    margin-bottom: 29px;
+    width: 506px;
+    height: 311px;
+}
+.emp{
+    border: 1px solid white;
+    border-radius:100000px;
+    margin: 30px 158px 0px;
+}
+.name{
+    display: block;
+    padding: 33px 179px 29px 180px;
+    /* text-align: center; */
+    font-weight: 200;
+    font-size: 24px;
+}
+.details{
+    width: 500px;
+    height: 355px;
+    border: 2px solid #808080;
+    border-radius: 20px;  
+    margin-bottom: 36px;  
+}
+li{
+    padding: 20px;    
+}
+.link{
+    font-weight: 200;
+    font-size: 24px;
+    margin-top: 30px;   
+}
+.links{
+    width:506px;
+    height:306px;
+    border:2px solid #808080;
+    border-radius:20px;   
+}
+.links>div{
+    margin-top: 25px; 
+    margin-left: 43px;
+}
+.material-icons{
+    padding-right: 25px;  
+}
+.tasks{
+    height: 1043px;
+    width: 1102px;
+    border:#808080 solid 2px;
+    border-radius: 20px;
+    margin-left:37px;
+    margin-top:29px;
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+}
+.heading{
+    margin-top:30px;
+    margin-left:40px;
+    font-size: 48px;
+    margin-bottom:41px;
+}
+.table{
+    width: 1013px;
+    height: 874px;
+    border:1px solid #808080;
+    border-radius:20px;
+    margin-left:40px;
+    display:flex;
+}
+.id,.status{
+    width:75px;
+    border-right:#808080 1px solid;
+    display:grid;
+    grid-template-columns: auto;
+    color: #808080;
+    font-size:24px;
+    padding-top: 20px;
+    padding-left:28px;
+    row-gap:28px;
+}
+.status{
+    width:125px;
+    border-right:#808080 1px solid;
+}
+.cbox{
+   width:30px;
+   height:30px;
+   border:1px solid #808080;
+   border-radius:5px; 
+}
+.status{
+    border-right:#808080 1px solid;
+    display:grid;
+    grid-template-columns: auto;
+    color: #808080;
+    font-size:24px;
+    padding-top: 20px;
+    padding-left:28px;
+    row-gap:24px;
+    padding-left:80px;
+}
+.task{
+    display:grid;
+    grid-template-columns: auto; 
+    color:#808080;
+    font-size:24px;
+    row-gap:28px;
+    padding-left:27px;
+    padding-top:20px;   
+}
